@@ -19,12 +19,13 @@ Kali in a containerized environment, which is just weaponized.
 
 - Install
 ```sh
-git clone https://github.com/naryal2580/mahakaala
-cd mahakaala
-./install.sh
+$ git clone https://github.com/naryal2580/mahakaala
+$ cd mahakaala
+$ ./install.sh  # You may want to alias the command to use it later.
+$ alias kash="docker exec -it maahakala zsh"
 ```
 
 - Use
 ```sh
-kash  # This will get you a shell off mahakaala!
+$ kash  # This will get you a shell off mahakaala!
 ```
