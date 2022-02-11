@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo ""
+echo "[+] Finally! I made it upto container.."
+echo ""
 echo -n "[<] Do you wish to install all kali tools? (THIS WILL TAKE SOME TIME) [y/N]: "
 read option
 echo "[!] This will now take some time.."
