@@ -21,9 +21,10 @@ Kali in a containerized environment, which is just weaponized.
 ```sh
 git clone https://github.com/naryal2580/mahakaala
 cd mahakaala
-docker build . -t mahakaala
+./install.sh
 ```
 
 - Use
 ```sh
+kash  # This will get you a shell off mahakaala!
 ```
