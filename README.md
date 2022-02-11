@@ -21,7 +21,7 @@ Kali in a containerized environment, which is just weaponized.
 ```sh
 $ git clone https://github.com/naryal2580/mahakaala
 $ cd mahakaala
-$ ./install.sh  # You may want to alias the command to use it later.
+$ bash ./install.sh  # You may want to alias the command to use it later.
 $ alias kash="docker exec -it maahakala zsh"
 ```
 
